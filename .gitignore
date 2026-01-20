@@ -1,5 +1,6 @@
 # Local .terraform directories
 .terraform/
+.terraform.lock.hcl
 
 # backend files
 backend.tf
@@ -38,3 +39,7 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore /app
+/app
+/html
